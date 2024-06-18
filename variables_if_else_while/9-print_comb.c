@@ -2,9 +2,9 @@
 
 int main(void)
 {
-    int x;
+    int x = 0;
 
-    for (x = 0; x < 10; x++)
+    while (x < 10)
     {
         putchar(x + '0');
         if (x < 9)
@@ -12,7 +12,9 @@ int main(void)
             putchar(',');
             putchar(' ');
         }
+        x++;
     }
     putchar('\n');
+
     return (0);
 }
