@@ -1,4 +1,4 @@
-include <stdio.h>
+#include <stdio.h>
 
 int main() {
     // Loop through numbers 0 to 9
