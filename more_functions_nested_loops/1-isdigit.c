@@ -6,11 +6,11 @@
  *
  * Return: 1 if the number is a digit, 0 otherwise.
  */
-int  isdigit(int c)
+int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
-			return (1);
+		return (1);
 
-     else
-			 return (0);
+	else
+		return (0);
 }
